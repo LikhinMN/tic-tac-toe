@@ -93,6 +93,7 @@ body {
     border-color: black;
     margin-top: 20px; 
     position: absolute;
+    top: 70%;
     left: 50%;
     display: none;
     transform: translate(-50%, -50%);
