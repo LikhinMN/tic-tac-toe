@@ -57,6 +57,7 @@ body {
 }
 #results{
     color: #cadcfc;
+    display: none;
 }
 .main-grid {
     display: grid;
@@ -75,7 +76,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-    height: 80px; /* To ensure boxes are square */
+    height: 80px; 
 }
 
 .box:hover {
@@ -90,10 +91,11 @@ body {
     background-color: #00f7ff;
     border: 5px;
     border-color: black;
-    margin-top: 20px; /* Adds space above the button */
+    margin-top: 20px; 
     position: absolute;
     top: 60%;
     left: 50%;
+    display: none;
     transform: translate(-50%, -50%);
 }
 
@@ -101,8 +103,6 @@ body {
     padding: 10px 40px;
     background-color: #cadcfc;
 }
-
-/* New class for highlighting winning cells */
 .winner {
     background-color: aqua;
 }
