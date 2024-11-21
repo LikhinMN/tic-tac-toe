@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 document.getElementById("results").textContent = `${grid[a]} wins!`;
                 document.getElementById("results").style.display = "block";
                 document.getElementById("play-again").style.display = "block";
-                return pattern; // Return the winning pattern
+                return pattern; 
             }
         }
         return null;
