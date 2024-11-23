@@ -18,6 +18,10 @@ body {
     text-align: center;
     padding-top: 5vh;
 }
+#results{
+    display: none;
+    color: #cadcfc;
+}
 .turn-container {
     width: 170px;
     height: 80px;
